@@ -1,0 +1,205 @@
+:root{
+    /* font's colors */
+    --main-font-color: #757575;
+    --secondary-font-color: #212121;
+    --accent-font-color: #2196F3;
+    --secondary-accent-color: #000000;
+    --alternative-accent-color: #FFFFFF;
+    --opacity-color: rgba(255, 255, 255, 0.6);
+
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --accent-font: 'Raleway', sans-serif;
+
+    /* backgrounds */
+    --main-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
+
+    /* others */
+    --main-btn-hover: #188CE8;
+    --border-color: #ECECEC;
+}
+
+/* Global styles */
+body{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    letter-spacing: 0.03em;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Header */
+.header{
+    border-bottom-color: var(--border-color);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.logo{
+    font-family: var(--accent-font);
+    color: var(--secondary-accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-accent{
+    color: var(--accent-font-color);
+}
+
+.nav{
+    color: var(--secondary-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav:hover, 
+.nav:focus{
+    color: var(--accent-font-color);
+}
+
+.info{
+    color: inherit;
+}
+
+.active{
+    color: var(--accent-font-color);
+}
+
+/* Hero */
+.dark {
+    background-color: var(--dark-background-color);
+}
+
+.hero{
+    color: var(--alternative-accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.btn{
+    font-family: var(--main-font);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-btn{
+    background-color: var(--accent-font-color);
+    color: var(--alternative-accent-color);
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.hero-btn:hover, 
+.hero-btn:focus{
+    background-color: var(--main-btn-hover);
+}
+
+/* Advantages */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.title {
+    color: var(--secondary-font-color);
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.advantage{
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-desc, 
+.info-desc{
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+/* Our team */
+.team{
+    background-color: var(--secondary-background-color);
+}
+
+.team-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-desc{
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list{
+    background-color: var(--main-background-color);
+}
+
+/* Footer */
+.logo-alt{
+    color: var(--alternative-accent-color);
+}
+
+.contact{
+    color: var(--opacity-color);
+}
+
+.info-desc:hover,
+.info-desc:focus{
+    color: var(--accent-font-color);
+}
+
+/* Portfolio page*/
+
+.portfolio-btn{
+    font-weight: 500;
+    color: var(--secondary-font-color);
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--alternative-accent-color);
+    background-color: var(--accent-font-color);
+}
+
+.portfolio-title{
+    color: var(--secondary-font-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-desc{
+    color: var(--main-font-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
