@@ -28,11 +28,30 @@ body{
     letter-spacing: 0.03em;
 }
 
-a{
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+.link{
     text-decoration: none;
 }
 
-ul{
+.list{
     list-style: none;
 }
 
@@ -135,8 +154,7 @@ ul{
     text-transform: uppercase;
 }
 
-.advantage-desc, 
-.info-desc{
+.advantage-desc{
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
@@ -171,6 +189,12 @@ ul{
     color: var(--opacity-color);
 }
 
+.info-desc {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
 .info-desc:hover,
 .info-desc:focus{
     color: var(--accent-font-color);
@@ -203,3 +227,4 @@ ul{
     font-size: 16px;
     line-height: 1.88;
 }
+
