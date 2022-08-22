@@ -237,9 +237,18 @@ button{
 /* Our team */
 .team{
     background-color: var(--secondary-background-color);
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title{
+    margin-bottom: 50px;
+}
+
+.item-title{
+    margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -251,7 +260,18 @@ button{
 }
 
 .team-list{
+    display: flex;
+    gap: 30px;
+}
+
+.team-item{
+    padding-bottom: 30px;
+
     background-color: var(--main-background-color);
+}
+
+.team-img{
+    margin-bottom: 30px;
 }
 
 /* Footer */
