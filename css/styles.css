@@ -156,6 +156,11 @@ button{
 }
 
 .hero-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
     background-color: var(--accent-font-color);
     color: var(--alternative-accent-color);
     font-weight: 700;
@@ -166,6 +171,7 @@ button{
 .hero-btn:hover, 
 .hero-btn:focus{
     background-color: var(--main-btn-hover);
+
 }
 
 /* Advantages */
@@ -321,6 +327,11 @@ address {
 }
 
 .portfolio-btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    
     font-weight: 500;
     color: var(--secondary-font-color);
     line-height: 1.62;
