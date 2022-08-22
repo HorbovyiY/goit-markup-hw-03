@@ -135,6 +135,7 @@ button{
 /* Hero */
 .dark {
     background-color: var(--dark-background-color);
+    text-align: center;
 }
 
 .hero{
@@ -149,7 +150,6 @@ button{
 .btn{
     font-family: var(--main-font);
     font-size: 16px;
-    cursor: pointer;
 }
 
 .hero-btn{
