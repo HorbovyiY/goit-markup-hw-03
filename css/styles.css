@@ -305,7 +305,20 @@ button{
 address {
     margin-top: 20px;
 }
+
 /* Portfolio page*/
+
+.portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list-btn{
+    display:flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 34px;
+}
 
 .portfolio-btn{
     font-weight: 500;
@@ -320,7 +333,11 @@ address {
     background-color: var(--accent-font-color);
 }
 
-.portfolio-title{
+.portfolio-item-title{
+    margin-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+
     color: var(--secondary-font-color);
     font-size: 18px;
     line-height: 2;
@@ -328,11 +345,20 @@ address {
 }
 
 .portfolio-desc{
+    padding-left: 24px;
+    padding-right: 24px;
+
     color: var(--main-font-color);
     font-size: 16px;
     line-height: 1.88;
 }
 
-/* Footer */
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
-
+.portfolio-img{
+    margin-bottom: 20px;
+}
