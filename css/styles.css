@@ -217,6 +217,23 @@ button{
     margin-right: 30px;
 }
 
+/* Do */
+
+.do{
+    text-align: center;
+    padding-bottom: 94px;
+}
+
+.do-title{
+    margin-bottom: 50px;
+}
+
+.do-list{
+    display: flex;
+    gap: 30px;
+}
+
+
 /* Our team */
 .team{
     background-color: var(--secondary-background-color);
