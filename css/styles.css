@@ -185,16 +185,36 @@ button{
     line-height: 1.17;
 }
 
+.advantage-list{
+    display: flex;
+
+}
+
 .advantage{
+    margin-bottom: 10px;
+
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+
+.advantage-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantage-desc{
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+}
+
+.advantage-item{
+    width: calc((100%-3*30)/4);
+}
+
+.advantage-item:not(:last-child){
+    margin-right: 30px;
 }
 
 /* Our team */
