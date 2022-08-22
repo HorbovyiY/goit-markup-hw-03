@@ -63,11 +63,27 @@ button{
     margin-right: auto;
 }
 
+
 /* Header */
 .header{
     border-bottom-color: var(--border-color);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts{
+    display: flex;
 }
 
 .logo{
@@ -83,11 +99,24 @@ button{
 }
 
 .nav{
+    display: flex;
     color: var(--secondary-font-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.nav-list{
+    display: flex;
+    margin-left: 93px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.nav-list > li:not(:last-child),
+.header-contacts > a:not(:last-child){
+    margin-right: 50px;
 }
 
 .nav:hover, 
